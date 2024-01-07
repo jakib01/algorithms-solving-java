@@ -1,4 +1,5 @@
 import sorting.BubbleSorting;
+import sorting.SelectionSort;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
@@ -11,7 +12,11 @@ public class Main {
         System.out.println(Arrays.toString(data));
 
         // Bubble sort
-        BubbleSorting obj = new BubbleSorting();
-        obj.bubbleSort(data);
+        BubbleSorting blbObj = new BubbleSorting();
+        blbObj.bubbleSort(data);
+
+        // Selection sort
+        SelectionSort selObj = new SelectionSort();
+        selObj.selectionSort(data);
     }
 }

@@ -16,7 +16,7 @@ public class BubbleSorting {
             }
         }
 
-        System.out.print("After Bubble Sort Apply:-> ");
+        System.out.print("After Selection Sort Apply:-> ");
         System.out.println(Arrays.toString(array));
     }
 }
